@@ -1,0 +1,14 @@
+# created by virtualenv automatically
+
+# exclude virtualenv
+Include
+Lib
+Scripts
+pyvenv.cfg
+
+backend/result.mp3
+backend/db.sqlite3
+
+backend/processFile/temp
+
+*.__pycache__
