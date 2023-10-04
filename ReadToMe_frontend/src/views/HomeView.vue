@@ -144,10 +144,10 @@ export default {
           </div>
         </div>
         <div class="flex-[0.2] flex items-center">
-          <a href="https://github.com/yoonyLim" target="_blank" class="flex items-center">
+          <a href="https://github.com/yoonyLim/ReadToMe" target="_blank" class="flex items-center">
             <img class="w-10" src="../assets/github-mark.png">
             <span class="w-2"></span>
-            <span>Link to Github</span>
+            <span>프로젝트 Github 링크</span>
           </a>
         </div>
       </div>
