@@ -23,3 +23,13 @@ Vue.js + Django to read file and create TTS for the client
 
 ## 💻 System Architecture
 ![System Architecture](https://github.com/yoonyLim/ReadToMe/assets/64838255/a4e12f0d-5b7a-417e-9cab-9bd285857e09)
+
+## 🖥️ Dependencies
+- Django 쪽에서 쓰이는 pytesseract를 위해서는 tessearct-OCR 설치 후 Path에 등록
+- 사전에 node.js 설치 필요
+
+## ⌨️ Run
+- ReadToMe-frontend 디렉토리에서:
+```Bash npm run dev```
+- ReadToMe_backend/backend 디렉토리에서:
+```Bash python3 manage.py runserver```
