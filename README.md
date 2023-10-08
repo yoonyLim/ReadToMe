@@ -29,7 +29,7 @@ Vue.js + Django to read file and create TTS for the client
 - 사전에 node.js 설치 필요
 
 ## ⌨️ Run
-- ReadToMe-frontend 디렉토리에서:
-```Bash npm run dev```
-- ReadToMe_backend/backend 디렉토리에서:
-```Bash python3 manage.py runserver```
+- ReadToMe_frontend 디렉토리에서:
+```npm run dev```
+- ReadToMe-backend/backend 디렉토리에서:
+```python3 manage.py runserver```
