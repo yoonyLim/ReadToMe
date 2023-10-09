@@ -20,7 +20,7 @@ export default {
   },
   created() {
     const userTheme = localStorage.getItem("theme")
-    this.isDarkmode = userTheme == "dark" ? false : true
+    this.isDarkmode = userTheme == "dark" ? true : false
     const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
 
     const themeCheck = () => {
@@ -29,6 +29,8 @@ export default {
             return
         }
     }
+
+    themeCheck();
   }
 }
 </script>

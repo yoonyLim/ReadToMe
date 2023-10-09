@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'PIL', # handle img
     'pytesseract', # convert img to txt
     'gtts', # TTS service
-    'pydub' # audio handler
 ]
 
 MIDDLEWARE = [
